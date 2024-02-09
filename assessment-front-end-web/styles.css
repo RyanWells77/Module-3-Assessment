@@ -44,7 +44,7 @@ img {
 	justify-content: space-between;
 }
 
-#profile-header{
+header {
 	/* background-color: chartreuse; */
 	height: 10vh;
 	display: flex;
