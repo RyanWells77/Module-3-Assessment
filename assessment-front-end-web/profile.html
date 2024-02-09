@@ -14,7 +14,9 @@
   </nav>
 
   <body>
-    <header>About me.</header>
+    <header id="profile-header">
+        <h2>About me</h2>
+    </header>
 
     <section id="top-section">
       <p>
@@ -24,7 +26,7 @@
     </section>
 
     <section id="section-two">
-      <ul>
+      <div><ul>
         Skills
       </ul>
       <li>Coding</li>
@@ -32,22 +34,26 @@
       <li>Cooking</li>
       <li>Handyman</li>
       <li>Design</li>
+    </div>
 
-      <ul class="hover">
+      <div><ul class="hover">
         Hidden Skills
       </ul>
       <li class="hide">Gamming</li>
-      <li class="hide">Tickel Torture</li>
       <li class="hide">Whistling</li>
+      <li class="hide">Tickel Torture</li>
       <li class="hide">
         excited quarks(rubbing hads together, clapping hands, silly jigs)
       </li>
+    </div>
     </section>
 
     <section id="bottom-setion">
-      <button id="color">My Favorite Color</button>
-      <button id="place">My Favorite Place</button>
-      <button id="ritual">My Favorite Ritual</button>
+    <div id="bottom-buttons">
+      <button class="favorite-buttons" id="color">My Favorite Color</button>
+      <button class="favorite-buttons" id="place">My Favorite Place</button>
+      <button class="favorite-buttons" id="ritual">My Favorite Ritual</button>
+    </div>
     </section>
 
     <script src="./profile.js"></script>

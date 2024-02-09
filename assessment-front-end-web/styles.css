@@ -37,31 +37,78 @@ img {
 	max-width: 300px;
 }
 
-#section-two{
+
+#check-boxes{
 	display: flex;
+	width: 40vw;
 	justify-content: space-between;
 }
 
-ul {
-	list-style-type: none;
-	padding: 0;
+#profile-header{
+	/* background-color: chartreuse; */
+	height: 10vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* border: solid;
+	border-width: 1px;
+	border-color: black; */
+	font-size: 25px;
+	margin: 0;
 }
 
-ul li {
-	margin-bottom: 10px;
+#top-section{
+	/* background-color: red; */
+	height: 10vh;
+	margin: 0;
 }
-.hover:hover + .hide {
-	display: block;
-	height: 100vh;
+
+#section-two{
+	/* background-color: aqua; */
+	display: flex;
+	height: 30vh;
+	justify-content: space-around;
+	
+}
+
+
+
+.hover:hover ~ .hide {
+	opacity: 1;
 	color: red;
 
 
 }
 
-li {
-	flex: 1;
-}
 .hide{
-	display: none;
+	opacity: 0; 
 
+}
+#ul-skills {
+	width: 20%;
+}
+
+#ul-hiden-skilles {
+	background-color: aquamarine;
+	width: 20%;
+}
+
+#bottom-setion{
+	/* background-color: rgb(229, 134, 149); */
+	height: 25vh;
+}
+
+#bottom-buttons{
+	display: flex;
+	justify-content: space-between;
+	align-items: first baseline;
+}
+.favorite-buttons {
+	background-color: yellow;
+	border-radius: 25%;
+	border: solid;
+	border-color: black;
+	border-width: 1px;
+	color: black;
+	font-size: 15px;
 }
