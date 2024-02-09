@@ -36,3 +36,32 @@ input {
 img {
 	max-width: 300px;
 }
+
+#section-two{
+	display: flex;
+	justify-content: space-between;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+ul li {
+	margin-bottom: 10px;
+}
+.hover:hover + .hide {
+	display: block;
+	height: 100vh;
+	color: red;
+
+
+}
+
+li {
+	flex: 1;
+}
+.hide{
+	display: none;
+
+}
